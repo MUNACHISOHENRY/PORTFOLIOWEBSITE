@@ -1,0 +1,475 @@
+:root {
+    --theme-color: #FFFAEC;
+    --theme-color2: #F5ECD5;
+    --theme-color3: #578E7E;
+    --theme-color4: #3D3D3D;
+    --font-family: "Kanit", sans-serif;
+    --font-family2: "Big Shoulders", sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    /* border: red 1px solid; */
+}
+
+body {
+    font-family: var(--font-family);
+    background: var(--theme-color);
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    right: 0px;
+    background: var(--theme-color4);
+    padding: 50px;
+    gap: 50px;
+}
+
+.nav-image {
+    border: var(--theme-color3) 5px solid;
+    width: 200px;
+    height: 200px;
+    background: var(--theme-color3);
+    border-radius: 50%;
+    background-image: url(./CIMU2220.JPG);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.nav-text {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    gap: 20px;
+    align-items: center;
+}
+
+.nav-text>a {
+    color: var(--theme-color);
+    transition: all 0.3s ease-in-out;
+}
+
+.nav-text>a:hover {
+    color: var(--theme-color3);
+    scale: 1.3;
+}
+
+/* END OF NAV BAR */
+
+/* HERO SECTION */
+.hero-section {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: 80%;
+    height: 100vh;
+    justify-content: center;
+    gap: 10px;
+
+}
+
+.name {
+    text-align: start;
+    line-height: 3.5rem;
+
+}
+
+.name>h1 {
+    font-size: 80px;
+
+}
+
+.name>h2 {
+    color: var(--theme-color3);
+    /* transform: translateY(-20px); */
+    font-size: 50px;
+}
+
+.about {
+    width: 95%;
+}
+
+.information {
+    display: flex;
+    gap: 10px;
+}
+
+.information>a {
+    color: var(--theme-color3);
+    text-decoration: underline;
+}
+
+.information>p {
+    color: var(--theme-color4);
+}
+
+.about {
+    font-size: 20px;
+    margin-top: 20px;
+    color: var(--theme-color4);
+}
+
+.links {
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.links>a {
+    color: var(--theme-color4);
+    font-size: 30px;
+    color: var(--theme-color4);
+    transition: all 0.3s ease-in-out;
+    font-size: 35px;
+}
+
+.links>a:hover {
+    color: var(--theme-color3);
+}
+
+/* END */
+
+
+/* EDUCATION */
+.EDUCATION-SECTION {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: 80%;
+    height: 100vh;
+    justify-content: center;
+    gap: 30px;
+}
+
+.EDUCATION-SECTION>h1 {
+    font-size: 60px;
+    color: var(--theme-color3);
+}
+
+.pau {
+    display: flex;
+    gap: 25rem;
+}
+
+.pau>h2 {
+    font-family: var(--font-family2);
+    font-size: 30px;
+}
+
+.pau>p {
+    color: var(--theme-color3);
+    font-size: 18px;
+}
+
+.rhs {
+    display: flex;
+    gap: 35rem;
+}
+
+.rhs>h2 {
+    font-family: var(--font-family2);
+    font-size: 30px;
+}
+
+.rhs>p {
+    color: var(--theme-color3);
+    font-size: 18px;
+}
+
+.course,
+.WAEC {
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 200;
+}
+
+/* EXPERIENCE SECTION */
+.EXPERIENCE-SECTION {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: 80%;
+    height: 100vh;
+    justify-content: center;
+    gap: 30px;
+}
+
+.EXPERIENCE-SECTION>h1 {
+    font-size: 60px;
+    color: var(--theme-color3);
+}
+
+.AGPC {
+    display: flex;
+    gap: 35rem;
+}
+
+.AGPC>h3 {
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 200;
+}
+
+.AGPC>p {
+    color: var(--theme-color3);
+    font-size: 18px;
+}
+
+.intern {
+    font-family: var(--font-family2);
+    font-size: 12px;
+}
+
+.about {
+    font-size: 17px;
+    font-weight: 250;
+}
+
+.Club {
+    font-family: var(--font-family2);
+    font-size: 12px;
+}
+
+.Member {
+    display: flex;
+    gap: 48rem;
+}
+
+.Member>h3 {
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 200;
+}
+
+.Member>p {
+    color: var(--theme-color3);
+    font-size: 18px;
+}
+
+.aim {
+    font-size: 19px;
+}
+
+.aim {
+    padding-top: 20px;
+}
+
+.LGC .Club {
+    font-family: var(--font-family2);
+    font-size: 12px;
+}
+
+.LGC .Member {
+    display: flex;
+    gap: 48rem;
+}
+
+.LGC .Member>h3 {
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 200;
+}
+
+.LGC .Member>p {
+    color: var(--theme-color3);
+    font-size: 18px;
+}
+
+.LGC .aim {
+    font-size: 19px;
+    padding-top: 20px;
+}
+
+.PSC .Club {
+    font-family: var(--font-family2);
+    font-size: 12px;
+}
+
+.PSC .Member {
+    display: flex;
+    gap: 48rem;
+}
+
+.PSC .Member>h3 {
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 200;
+}
+
+.PSC .Member>p {
+    color: var(--theme-color3);
+    font-size: 18px;
+}
+
+.PSC .aim {
+    font-size: 19px;
+    padding-top: 20px;
+}
+
+/* SKILLS */
+.SKILLS-SECTION {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: 80%;
+    height: 100vh;
+    justify-content: center;
+    gap: 30px;
+}
+
+.skills>h1 {
+    color: var(--theme-color3);
+    font-size: 60px;
+}
+
+/* .skill-list {
+    color: var(--theme-color4);
+    font-weight: 300;
+} */
+
+.bi-star-fill {
+    color: gold;
+}
+
+.bi-star-half {
+    color: #ffd700;
+}
+
+.skill-grid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.skill-box {
+    background: var(--theme-color2);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    border-radius: 1rem;
+    box-shadow: 11px 20px 24px -22px rgba(61, 61, 61, 0.68);
+    -webkit-box-shadow: 11px 20px 24px -22px rgba(61, 61, 61, 0.68);
+    -moz-box-shadow: 11px 20px 24px -22px rgba(61, 61, 61, 0.68);
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+}
+
+.logo>img {
+    width: 100%;
+    height: 100%;
+}
+
+/* VOLUNTEER EXPEIENCE */
+.VOLUNTEER {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: 80%;
+    height: 100vh;
+    justify-content: center;
+    gap: 30px;
+}
+
+.VOLUNTEER>h1 {
+    font-size: 60px;
+    color: var(--theme-color3);
+}
+
+.genz {
+    font-family: var(--font-family2);
+    font-size: 12px;
+}
+
+.aboutgenz {
+    font-size: 20px;
+    font-weight: 250;
+}
+
+.Alayo {
+    font-family: var(--font-family2);
+    font-size: 12px;
+}
+
+.Alayoabout {
+    font-size: 20px;
+    font-weight: 250;
+}
+
+.tedxpau {
+    font-family: var(--font-family2);
+    font-size: 12px;
+}
+
+.tedxpauabout {
+    font-size: 20px;
+    font-weight: 250;
+}
+
+/* CERTIFICATIONS */
+.certifications {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: 80%;
+    height: 100vh;
+    justify-content: center;
+    gap: 30px;
+}
+
+.certifications>h1 {
+    font-size: 60px;
+    color: var(--theme-color3);
+}
+
+.certifications-section {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.cert-card {
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+}
+
+.cert-thumbnail {
+    width: 120px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s;
+}
+
+.cert-thumbnail:hover {
+    transform: scale(1.05);
+}
+
+.cert-info h4 {
+    margin: 0;
+}
+
+.cert-info p {
+    margin: 5px 0;
+}
